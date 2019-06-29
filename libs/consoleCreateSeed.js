@@ -18,7 +18,7 @@ module.exports = function(vorpal) {
                         const errrr = chalk.red(errr);
                         return console.log(errrr);
                     }
-                    const afilename = chalk.green('*** The seed ') + chalk.blue(`${args.filename}.js`) + chalk.green(' is successfully created inside ') + chalk.blue('seeds') + chalk.green(' folder ***');
+                    const afilename = chalk.green('*** The seed ') + chalk.blue(`${args.filename}.js`) + chalk.green(' is successfully created inside ') + chalk.blue('src/seeds') + chalk.green(' folder ***');
                     console.log(afilename);
                     callback();
                 });
